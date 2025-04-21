@@ -3,7 +3,7 @@
 This project focuses on binary classification of URLs using Transformer models. It demonstrates how to:
 - Fine-tune a pre-trained BERT model on a URL classification dataset ([Dataset](https://huggingface.co/datasets/shawhin/phishing-site-classification))
 - Compress the model using **knowledge distillation** with DistilBERT
-- Further reduce the model size using **4-bit quantization** with `bitsandbytes`
+- Further reduce the model size using **4-bit quantization** (Post Training Method) with `bitsandbytes`
 
 ## 🚀 Results
 
